@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+cmslog-opsdoc = {editable = true,path = "."}
+sphinx = "*"
+recommonmark = "*"
+sphinx-rtd-theme = "*"
+sphinx-markdown-tables = "*"
+
+[requires]
+python_version = "3.7"
